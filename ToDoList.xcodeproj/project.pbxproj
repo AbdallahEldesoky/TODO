@@ -105,13 +105,29 @@
 		B25FCF9E230C0A7400B53E1F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B2D5E76D22E07D89004C1A5F /* AddItemToTodoList.swift */,
-				B259A6F522DF919B006F1DE8 /* ToDoListTableViewController.swift */,
-				B25FCF9F230C242B00B53E1F /* ListDetailsViewController.swift */,
-				B25FCF99230C02B500B53E1F /* AllListTableViewController.swift */,
+				B2C6211F2315620E00E3C1E0 /* Items */,
+				B2C621202315622400E3C1E0 /* Lists */,
 				B23CE64A23114991001984FC /* IconPickerViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B2C6211F2315620E00E3C1E0 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				B2D5E76D22E07D89004C1A5F /* AddItemToTodoList.swift */,
+				B259A6F522DF919B006F1DE8 /* ToDoListTableViewController.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		B2C621202315622400E3C1E0 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				B25FCF9F230C242B00B53E1F /* ListDetailsViewController.swift */,
+				B25FCF99230C02B500B53E1F /* AllListTableViewController.swift */,
+			);
+			path = Lists;
 			sourceTree = "<group>";
 		};
 		B2EE5E3C230FD7F500A55142 /* Proctcol */ = {
